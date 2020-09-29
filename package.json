@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "apollo-server": "^2.18.1",
+    "graphql": "^15.3.0",
+    "invariant": "^2.2.4",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/invariant": "^2.2.34",
+    "@types/jest": "^26.0.14",
+    "@typescript-eslint/eslint-plugin": "^4.2.0",
+    "@typescript-eslint/parser": "^4.2.0",
+    "eslint": "^7.9.0",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.4.0",
+    "ts-node-dev": "^1.0.0-pre.63"
+  },
+  "scripts": {
+    "eslint": "eslint 'src/**/*.ts'",
+    "start": "ts-node-dev --respawn src/index.ts",
+    "tsc": "tsc"
+  }
+}
