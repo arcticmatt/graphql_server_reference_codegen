@@ -1,4 +1,5 @@
 import { Character } from "../../data/types/Character";
+import { Episode } from "../../generated";
 import character from "../character";
 import episode from "../episode";
 import getHero from "../../data/getHero";
@@ -12,7 +13,10 @@ const heroQueryField = {
       type: episode,
     },
   },
-  resolve: (_source: unknown, { episode }: { episode?: number }): Character => {
+  resolve: (
+    _source: unknown,
+    { episode }: { episode?: Episode }
+  ): Character => {
     return getHero(episode);
   },
 };

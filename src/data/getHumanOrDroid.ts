@@ -2,7 +2,7 @@ import { droidData, humanData } from "./Data";
 
 import { Droid } from "./types/Droid";
 import { Human } from "./types/Human";
-import { SumInput } from "./types/SumInput";
+import { SumInput } from "../generated";
 
 export function getHumanOrDroid(input: SumInput): Human | Droid {
   if ((input.one + input.two + input.three) % 2 === 0) {

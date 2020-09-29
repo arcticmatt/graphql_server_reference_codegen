@@ -1,7 +1,7 @@
 import { Droid } from "../../data/types/Droid";
 import { GraphQLNonNull } from "graphql";
 import { Human } from "../../data/types/Human";
-import { SumInput } from "../../data/types/SumInput";
+import { SumInput } from "../../generated";
 import { getHumanOrDroid } from "../../data/getHumanOrDroid";
 import humanOrDroid from "../humanOrDroid";
 import sumInput from "../sumInput";

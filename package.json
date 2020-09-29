@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "@graphql-codegen/core": "^1.17.8",
+    "@graphql-codegen/schema-ast": "^1.17.8",
+    "@graphql-codegen/typescript": "^1.17.10",
     "apollo-server": "^2.18.1",
     "graphql": "^15.3.0",
     "invariant": "^2.2.4",
