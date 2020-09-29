@@ -1,10 +1,10 @@
-# graphql_server_reference
+# graphql_server_reference_codegen
 
-An example GraphQL server implemented using the reference JavaScript implementation ([graphql-js](https://github.com/graphql/graphql-js)).
+An example GraphQL server implemented using the reference JavaScript implementation ([graphql-js](https://github.com/graphql/graphql-js)) + [GraphQL Code Generator](https://graphql-code-generator.com/docs/getting-started/index).
 
 ## Setup
 
-This repository is based on https://github.com/arcticmatt/graphql_server_base.
+This repository is based on https://github.com/arcticmatt/graphql_server_reference.
 
 ## Yarn scripts
 
